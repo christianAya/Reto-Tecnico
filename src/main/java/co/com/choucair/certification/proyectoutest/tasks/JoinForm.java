@@ -21,7 +21,7 @@ public class JoinForm implements Task {
         actor.attemptsTo(
                 Enter.theValue("Christian").into(UtestJoinFormPage.INPUT_FIRST_NAME),
                 Enter.theValue("Aya").into(UtestJoinFormPage.INPUT_LAST_NAME),
-                Enter.theValue("amos18r_f693c@vixej.com").into(UtestJoinFormPage.INPUT_EMAIL),
+                Enter.theValue("yegiv17232@hoxds.com").into(UtestJoinFormPage.INPUT_EMAIL),
                 SelectFromOptions.byVisibleText("April").from(UtestJoinFormPage.DROP_DOWN_BIRTH_MONTH),
                 SelectFromOptions.byVisibleText("26").from(UtestJoinFormPage.DROP_DOWN_BIRTH_DAY),
                 SelectFromOptions.byVisibleText("1999").from(UtestJoinFormPage.DROP_DOWN_BIRTH_YEAR),
